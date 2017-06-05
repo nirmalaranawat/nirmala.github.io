@@ -1,149 +1,98 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Gist
+ @nirmalaranawat
+ Sign out
+ Unwatch 1
+  Star 0
+  Fork 0 nirmalaranawat/nirmala.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Settings Insights 
+Branch: master Find file Copy pathnirmala.github.io/home - Copy.html
+5ce2896  20 minutes ago
+@nirmalaranawat nirmalaranawat Initial Release
+1 contributor
+RawBlameHistory     
+1007 lines (807 sloc)  33 KB
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Basil Systems</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/basilsystems.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+.teamtext1 :hover{
+  font-weight:600;
+}
+.teamtext :hover{
     
-
-    <script type="text/javascript" src="js/shCore.js"></script>
-    <script type="text/javascript" src="js/shBrushXml.js"></script>
-    <script type="text/javascript" src="js/shBrushJScript.js"></script>
-    <script src="js/jquery.easing.js"></script>
-    <script src="js/jquery.mousewheel.js"></script>
-    <script defer src="js/demo.js"></script>
-
-
-
-
-    <title>CloverBoard</title>
-    <link rel="shortcut icon" href="images/CB_just_logo.ico" >
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="Responsive%20Sidebar%20Push%20Menu%20Demo_files/font-awesome.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/custom-style.css">
-    <link rel="stylesheet" href="css/cloverboard.css">
-
-    <script src="css/jquery.js"></script>
-    <script src="js/modernizr.js"></script>
-    <!-- jQuery -->
-
-    <script src="js/jquery.js"></script>
-
-    <!-- Slidx -->
-    <script type="text/javascript" src="js/slidx.js"></script>
-
-    <style>
-
-    .btn1:hover {
- border: 2px solid #f6ff00;
- color:#f6ff00 !important;
-    }
-    .btn1 {
-        cursor:pointer;
-     transition: 0.5s;
-    display: inline-block;
-    margin-bottom: 15px;
-    padding: 14px 28px 13px 28px;
-    line-height: 1;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    font-size: 12px;
-    
+    font-weight:600;
 }
 @media screen and (max-width: 480px) {
-.install-slider p {
-font-size: 17px;
-
+.center1{
+width: 100%;
+margin: 0 auto;
 }
-.possibilities h2 {
-position: absolute;
-position: relative;
-left: 65px;
-bottom: 4px;
-width: 80%;
-padding-top: 25px;
+.testimonials ul.testi_boxs li{
+    margin-left:12%;
 }
-.phone{
-width: 44% !important;
-position: relative;
-top: 35px;
-}
-
-.mar1{
-width: 82% !important;
-margin-top: 61px !important;
-}
-
-.mar1{
-width: 82% !important;
-margin-top: 61px !important;
-}
-p {
-    font-size: 17px;
-}
-    .when{
-            margin-left: -52px;
-    font-size: 16px;
+    .teamres1{
+        display:none;
     }
-    .mar{
-        margin-top:120px;
-    }
-    .black{
-        color:black;
-    }
-    .contact {
-    float: none;
-    margin-right: 0px;
-    width: 100%;
-}
-
-    .work-text2 > h3 {
-    margin-bottom: 45px;
-    margin-top: 60px;
-}
-
-    .work-text2 {
-    color: #fff;
-    font-size: 23px;
-    position: absolute;
-    text-align: center;
-    width: 70%;
-    top: 15px;
-    margin-left: 15%;
-    display: inline-block;
-}
-    .Accessorize{height: 470px;
-    background-color: #f6f6f6;
-    color:#000;
-}
-.auto-text{
-    width: 55%;
-    margin-top: 118px;
-}
-    #auto-mode{
-       
-        height: 540px;
-    background-color: #f6f6f6;
+    .teamres2{
+        display:block;
     }
     .margins{
-margin-top:180px;
+margin:20px auto;
 }
-    .text {
-    color: #fff;
-    font-size: 20px;
-    position: absolute;
-    text-align: center;
-    width: 90%;
-    top: -10px;
-    margin: 15% auto 18% 17%;
-    margin-left: 6%;
-    display: inline-block;
+.margins1{
+margin:0 auto;
+}
+    .team {
+    width: 60%;
+}
+    .teamtext{
+        transition:0.5s;
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 0px;
+}
+.teamtext1 {
+    padding-top: 20px;
+    font-size: 18px;
+    margin-left: 0px;
 }
     .icon {
      float: none; 
@@ -154,263 +103,277 @@ margin-top:180px;
     margin-right: 0px;
     width: 100%;
 }
- .conf1{
-width: 80%;
-position: relative;
-}
+    
+   .switches{
+    font-size:24px;
+   }
 .title1{
-line-height: 67px;
-    margin-top: -48px;
+    font-size:24px;
     }
+    .title2{
+    font-size:24px;
+    }
+    
 }
 @media screen and (min-width: 481px) {
-.phone{
-width: 44% !important;
-}
-.spe{
-position:relative;
-top:-250px;
-}
-.leftmargin{
-width: 40%;
-margin-left: 10%;}
-    .conf{
-
+ .switch_left{
             position: relative;
-    left: 24%;
+    left: 40px;
     }
+    .switch_right{
+            position: relative;
+    left: -40px;
+    }
+    .margin_switch{
+    margin-top: 30px;
+}
+.center1{
+width: 100%;
+margin: 0 auto;
+}
+    .testimonials ul.testi_boxs li{
+    margin-left:90px;
+}
+    .teamres1{
+        display:block;
+    }
+.teamres2{
+        display:none;
+    }
+    .margins{
+margin-left:23%;
+}
+.margins1{
+margin-left:37%;
+}
+    .team {
+    width: 45%;
+}
+    .teamtext{
+    padding-top: 80px;
+    font-size: 18px;
+    margin-left: -35px;
+}
+.teamtext1{
+    padding-top: 80px;
+    font-size: 18px;
+    margin-right: -35px;
+}
     .contact {
     float: left;
     margin-right: 35px;
     width: 30%;
 }
-.margins{
-margin-top:400px;
+    
+ .switches{
+    font-size:18px;
+   }
+.title1{
+    font-size:54px;
+        
+    }
+    .title2{
+    font-size:44px;
+    }
 }
-.title1 {
-    font-size: 47px;
-    line-height: 32px;
+.team_img{
+    width:200px;
+    border-radius:150px;
 }
- h3 {
-    font-size: 40px;
-}
-p {
-    font-size: 17px;
-}
-}
+    
+</style>
+    <script type="text/javascript">
+        function show_biodata(data_id) {
+            document.getElementById(data_id).style.display = "block";
+        }
+        function hide_biodata(data_id) {
+            document.getElementById(data_id).style.display = "none"; 
+        }
+    </script>
 
-:i-block-chrome, .when1 {
-      margin-top: -70px; !important;}
-  
-  
-
-    </style>
 </head>
 
-    <body>
-        <!-- Side Menu -->
-        <div style="position: fixed; top: 0px; width: 250px; max-width: 100%; height: 100%; overflow-y: auto; transition: all 0.5s ease 0s; z-index: 98; right: -250px;" class="slidx-menu">
-            <ul class="list-unstyled">
-                <li><a href="#"><H2>CLOVER BOARD</H2></a>
-                </li>
-                <li><a href="#slider"> HOME</a>
-                </li>
-                <li><a href="#features"> FEATURES</a>
-                </li>
-                <li><a href="#installation"> 3 STEPS TO START</a>
-                </li>
-                <li><a href="#works"> HOW IT WORKS</a>
-                </li>
-                <li><a href="#footer"> CONTACT</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Side Menu Button -->
-        <div id="wrapper">
-            <div class="container-fluid">
-                <a style="position: fixed; top: 0px; transition: all 0.5s ease 0s; z-index: 97; right: 0px;" id="slidx-button"><img src="images/triger.png">
-                </a>
-            </div>
-        </div>
-
-        <!-- First Slider -->
-        <div id="slider" style="position:relative;">
-            <div class="logo">
-                <a href="/"></a>
-            </div>
-            <img id="first_image" src="images/Home_CB.jpg">
-            <div class="text">
-                <div class="text-sec">
-                    <!-- <img src="images/CB_white.png" /> -->
-                    <h3 class="title1">CloverBoard</h3>
-                    <h3 class="title1">A switch like no other.</h3>
-                    <p class="btn1 margins" id="click">LEARN  &nbsp;MORE</p><div id="11" class="spe"></div>
-                    <!-- <p>CloverBoard is a Wi-Fi enabled switch that gives convenience,energy saving and security.</p>
-                    <p>It senses motion,follows your routine and communicate together to intelligently control appliances.</p> -->
-                </div>
-
-            </div>
-        </div>
-<div class="row" style="padding-bottom: 50px;">
-    <div class="col-sm-6" style="margin:0 auto;float:none;text-align:center;padding10px;">
-       <h3 id="11"> The senseful switch.</h3>
-        
-        <p> CloverBoard is a Wi-Fi enabled replacement to your conventional switch that gives you convenience, energy saving, and security.</p>
-        <p> It senses motion, follows your routine and communicate together to give occupancy and time of the day based intelligence.</p>
-
-    </div>
-
+<body id="page-top">
+<div style="position: fixed; top: 0px; width: 250px; max-width: 100%; height: 100%; overflow-y: auto; transition: all 0.5s ease 0s; z-index: 98; right: -250px;"
+     class="slidx-menu">
+    <ul class="list-unstyled">
+        <li><a href="#"><H2>Basil Systems</H2></a>
+        </li>
+        <li><a href="#wrapper"> Home</a>
+        </li>
+        <li><a href="#who_we_are"> Who we are</a>
+        </li>
+        <li><a href="#mentors"> Mentors</a>
+        </li>
+        <li><a href="#location"> Contact</a>
+        </li>
+    </ul>
 </div>
-        <div id="auto-mode" style="position:relative;">
-            <img src="images/auto-mode.jpg">
-            <div class="auto-text title-text when1">
-                <h3 class="when">When you save energy....it shows.</h3>                 
-            </div>
-            <br>
-            <div class="auto-text leftmargin mar1 ">  
-                    <p class="black mar ">Long press a button to place an appliance in AUTO mode.
-                     It greets you with a green halo & the appliance switches on only when needed.</p>
-                    <p class="black">It senses light, knows time of the day and keeps learning to give intelligent control.</p>
-                    <p class="black">Save 10-15% on heading and cooling cost $ 30-40% on lighting cost.</p>
-                </div>
-            </div>
-            <!-- <div class="auto-text">
-                <h2>When you save energy......it shows.</h2>                  
-            </div>
-            <br>
-            <div class="auto-text leftmargin">    
-                <p>Long press a button to place an appliance in AUTO mode.</p>
-                 It greets you with a green halo & the appliance switches on only when needed.</p>
-                <p>It senses light, knows time of the day and keeps learning to give intelligent control.</p>
-                <p>Save 10-15% on heading and cooling cost $ 30-40% on lighting cost.</p>
-            </div> -->
 
-        </div>
-        <div id="works">
-
-            <div class="work-text conf1">
-<div class="conf"><h3>Configurable Buttons</h3></div>
-               
-            </div>
-            <img src="images/3.jpg">
-        </div>
-        <div class="row">
-    <div class="col-sm-6" style="margin:0 auto;float:none;text-align:center;padding10px;">
-       <h3> The Anyway switch.</h3>
-            <p>All the CloverBoards in a house can talk to each other, and the buttons are not hard coded, which means you can assign functionalities to CloverBoard buttons as per your wish.</p>
-                 <p>Forget pre-planned wiring for Two or Three way switches. Assign CloverBoard button in your bedroom to switch the staircase light ...     And change it whenever you want </p>
-                 <p>Not one or two way ... meet the world's first anyway switch.</p>
+<!-- Side Menu Button -->
+<div id="wrapper">
+    <div class="logo">
+        <a href="#"></a>
     </div>
-        <div id="features">
-            <div class="themes">
-                <div class="col-sm-6 theme-left">
-                    <div class="theme-img">
-                        <img src="images/themes.jpg">
-                    </div>
-                </div>
-                <div class="col-sm-6 theme-left">
-                    <div class="theme-text">
-                        <h3>Themes</h3>
-                        <p>Create an evening theme to suit your mood with dim or bright lights.</p>
-                        <p>Create a Night Theme to turn off lights leaving fans & AC running as it suits you.</p>
-                        <p>Do it with one touch on phone instead of ruining your sleep by getting up.</p>
-                    </div>
-                </div>
-
-                <div class="col-sm-6 theme-right">
-                    <div class="theme-img">
-                        <img style="height:360px" src="newimage/scheduling.jpg">
-                    </div>
-                </div>
-                <div class="col-sm-6 theme-right">
-                    <div class="theme-text">
-                        <h3>Scheduling</h3>
-                        <p>Schedule repetitive tasks like running geysers for 10 min at 8 AM in weekdays.</p>
-                        <p>Set to randomly switch lights in the
-                        evening when you are out of town; Pretend you are home.</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="security">
-            <div class="col-sm-6 theme-right">
-                <div class="security-img">
-                    <img class="phone" src="images/security.png">
-                </div>
-            </div>
-            <div class="col-sm-6 theme-left">
-                <div class="theme-text">
-                    <h3>Security</h3>
-                    <p>Apart from bringing you convenience & energy saving, CloverBoard protects you from burglaries by sounding an alarm and sending you notification if a motion is detected in your absence.
-
-                    </p>
-                    <p>You can call a person, maybe your society guard or neighbour right from the notification window.</p>
-                   <p>It also prevents burglaries by randomly switching on lights to make an appearance that someone is home.</p>
-
-                    
-                </div>
-            </div>
+    <div class="container-fluid">
+        <a style="position: fixed; top: 0px; transition: all 0.5s ease 0s; z-index: 97; right: 0px;" id="slidx-button">
+            <img src="img/triger.png"/>
+        </a>
+    </div>
+</div>
+<section id="home_section" style="position:relative">
+    <img src="img/top_background.jpg" style="width : 100%"/>
+    <!--<header>-->
+    <div class="header-content">
+        <div class="header-content-inner">
+            <h2 class="title1">We are redefining the way you do everyday things. And you'll love it.</h2>
 
         </div>
-        <div class="possibilities">
-            <h2>The possibilities are...<img src="images/infinite.png" class="infinite"></h2>
-            <div class="im">
-                <img src="images/possibilities.jpg">
+        <p class="btn1">EXPLORE OUR AMAZING PRODUCTS</p>
+
+        <div class="row margin_switch">
+
+            <div class="col-lg-4 col-lg-offset-2 text-center switch_left ">
+                <a href="cloverboard">
+                    <img id="clover" src="newimage/CBbw.png" style="width : 40%"/>
+                </a>
+                <hr class="primary">
+                <h2 class="switches ">The senseful switch</h2>
             </div>
-
-
+            <div class="col-lg-4 text-center text-top switch_right">
+                <a href="paperswitch">
+                    <img id="paper" src="newimage/PSbw.png" style="width : 40%"/>
+                </a>
+                <hr class="primary">
+                <h2 class="switches ">Automation and Simplicity</h2>
+            </div>
         </div>
 
 
 
 
+    <section class="testimonials" id="who_we_are">
+        <hr class="black_line">
+        <div class="header-content-inner " style="margin-bottom: 80px;">
+           <div class="home_tag2"> <h2 class="title2"style="color:#000000;font-weight: 100;">We are extremely passionate about what we do.</h2></div>
+           
+<div class="teamres1">
+            <div class="row team margins">
 
-        <div id="installation">
-            <div class="install-slider">
-                <p>What’s the point of anything if you do not understand it...</p>
-                <p>or cannot install it.</p>
-                <div class="flexslider">
-                    <ul class="slides">
-                        <li>
-                            <img src="images/71.jpg" />
-                        </li>
-                        <li>
-                            <img src="images/72.jpg" />
-                        </li>
-                        <li>
-                            <img src="images/73.jpg" />
-                        </li>
-                    </ul>
-                </div>
-                <p>3 steps to start using CloverBoard. The simplest installation imaginable.</p>
-            </div>
-            <script defer src="js/jquery.flexslider.js"></script>
-            <script type="text/javascript">
-                $(function() {
-                    SyntaxHighlighter.all();
-                });
-                $(window).load(function() {
-                    $('.flexslider').flexslider({
-                        animation: "slide",
-                        start: function(slider) {
-                            $('body').removeClass('loading');
-                        }
-                    });
-                });
-            </script>
+            <div class="col-sm-6"><img  id="nis" class="team_img" src="img\team\nishant.jpg" data-toggle="modal" data-target="#nis1"></div>
+
+<div class="col-sm-6 teamtext">Nishant Kumar <br>Hardware and Graphics Design</div>
         </div>
-        <div class="Accessorize" style="position:relative">
+         <div class="row team margins1">
 
-            <img src="images/accessorize.jpg">
-            <div class="work-text2">
-                <h3>Accessorize your cloverboard</h3>
-                <p class="black mar">Add plug and play sockets to automate TVs,ACs or geysers whose sockets are at different location from lights and fans.</p>
-                <p class="black">It talks to CloverBoard and its motion sensor to give the same intelligent control.Single tap to on/off.long press for AUTO mode</p>
-            </div>
+            <div class="col-sm-6 teamtext1">Nirmala Kunwar <br>SoftWare and Embedded Systems</div>
+           
+
+<div class="col-sm-6"><img class="team_img" src="img\team\nirmala103.jpg" id="nir"data-toggle="modal" data-target="#nir1"></div>
+        </div>
+         <div class="row team margins">
+
+            <div class="col-sm-6"><img class="team_img" src="img\team\Ritika5.jpg" id="rit"data-toggle="modal" data-target="#rit1"></div>
+
+<div class="col-sm-6 teamtext">Ritika Dhyawala <br>Software and User Experience</div>
+        </div>
+         <div class="row team margins1">
+
+            <div class="col-sm-6 teamtext1">Vivek Raj <br>The Technology Envangalist</div>
+           
+
+<div class="col-sm-6"><img class="team_img" src="img\team\vivek.jpg" id="viv"data-toggle="modal" data-target="#viv1"></div>
+        </div>
+      
+</div>
+
+<!-- for mobile -->
+<div class="teamres2">
+            <div class="row team margins">
+
+            <div class="col-sm-6"><img  id="nis" class="team_img" src="img\team\nishant.jpg"></div>
+
+<div class="col-sm-6 teamtext">Nishant Kumar <br>Hardware and Graphics Design</div>
+        </div>
+         <div class="row team margins1">
+         <div class="col-sm-6"><img class="team_img" src="img\team\nirmala103.jpg"></div>
+
+            <div class="col-sm-6 teamtext1">Nirmala Kunwar <br>SoftWare and Embedded Systems</div>
+           
+
 
         </div>
+         <div class="row team margins">
+
+            <div class="col-sm-6"><img class="team_img" src="img\team\Ritika5.jpg"></div>
+
+<div class="col-sm-6 teamtext">Ritika Dhyawala <br>Software and User Experience</div>
+        </div>
+         <div class="row team margins1">
+<div class="col-sm-6"><img class="team_img" src="img\team\vivek.jpg"></div>
+            <div class="col-sm-6 teamtext1">Vivek Raj <br>The Technology Envangalist</div>
+           
+
+
+        </div>
+      
+</div>
+           </section>
+    <hr class="black_line" style="margin-top:0%;">
+
+    <section class="testimonials" id="mentors">
+        <div class="header-content-inner ">
+            <div class="home_tag2"> <h2 class="title2"style="color:#000000;font-weight: 100;">We are thankful to the mentors and helping hands</h2></div>
+ <ul class="testi_boxs">
+            <li>
+                <img class="avatar" src="img/team/Rohan1.jpg" alt=""  id="roh"data-toggle="modal" data-target="#roh1"/>
+
+               <div class="mentor_tag"> <div class="name"><h4>Rohan Shravan</h4></div>
+
+                <p itemprop="jobTitle" style="color:#000000;">CEO - Notion Ink</p>
+</div>
+
+            </li>
+            <li>
+                <img class="avatar" src="img/team/chintan.jpg" alt="" id="chi"data-toggle="modal" data-target="#chi1"/>
+
+              <div class="mentor_tag">  <div class="name"><h4>Chintan Bakshi</h4></div>
+
+                <p itemprop="jobTitle" style="color:#000000;">CEO - StartUp Oasis</p>
+</div>
+                
+            </li>
+            <li>
+                <img class="avatar" src="img/team/jai.jpg" alt="" id="jai"data-toggle="modal" data-target="#jai1"/>
+
+               <div class="mentor_tag">  <div class="name"><h4>Jai Dhariwal</h4></div>
+
+                <p itemprop="jobTitle" style="color:#000000;">Geek - Applied Materials</p></div>
+
+                  </li>
+                   <li>
+                <img class="avatar" src="img/team/Dilip.png" alt="" id="kus" data-toggle="modal" data-target="#kus1"/>
+
+                <div class="mentor_tag"> <div class="name"><h4>Dilip Kushwaha</h4></div>
+
+                <p itemprop="jobTitle" style="color:#000000;">Geek - Artoo</p></div>
+
+                  </li>
+        </ul>
+
+        </div>
+
+    </section>
+
+
+<section id="location" style="position:relative;">
+ <hr class="black_line" >
+    <img src="img/bottom_background.png" style="width : 102%; margin-top:70px">
+ 
+    <div class="home_tag2" style="margin-top:2%;"> <h2 class="title2" style="color:#000000;font-weight: 100;">We are in Bangalore, come visit us.</h2></div>
+
+</section>
+
         <div id="footer">
             <div class="f-container">
                 <div class="contact">
@@ -430,41 +393,514 @@ p {
                     <a href=""><img id="blog1"  style="width:46px;"src="newimage/icons/blog.png">
                     </a>
                    
+
                     <form name="form" method="post" action="#">
                         <input type="text" placeholder="enter email for basil’s news." name="subscribe_email">
                         <input type="submit" hidden="true"/>
                     </form>
-                    <p>*No spamming. We promise </p>
+                    <p>*No spamming. We promise</p>
+                </div>
+                <div class="copyright">
+                    <p>©2015 basil systems. All rights reserved. Designs patented.</p>
+                </div>
+            </div>
         </div>
 
+         
 
-    </body>
+</div>
+</section>
 
-</html>
-<?php
-    if(isset($_POST['subscribe_email'])) { //only do file operations when appropriate
-        $a = $_POST['subscribe_email'];
-        $myFile = "emails.txt";
-        $fh = fopen($myFile, 'a') or die("can't open file");
-        fwrite($fh, $a."\n");
-        fclose($fh);
-    }
-?>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!-- Modal -->
+  <div class="modal fade" id="nis1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        
+          
+          
+        
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Kumar Nishant</h4>
+          <p style="margin-top: 8px;font-size: 18px;">Hardware and graphics design<p></p>Nishant is a metallurgical and materials engineering 
 
-    <script>
-        $(document).ready(function (){
-            $("#click").click(function (){
-                //$(this).animate(function(){
-                    $('html, body').animate({
-                        scrollTop: $("#11").offset().top
-                    }, 1500);
-                //});
+graduate from NIT, Jaipur. He discovered his niche for design early and has been designing robots for 5 
+
+years.A "perfectionist" at core and an awesome CAD and graphics designer. He maintains a 'no 
+
+compromise' policy on product's simplicity and usability.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/pages/CloverBoard/3289123977816368?ref=settings"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+<div class="modal fade" id="nir1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        
+          
+          
+        
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Nirmala</h4>
+          <p style="margin-top: 8px;font-size: 18px;"><p>Software and Embedded systems</p>Nirmala is an Electrical engineer from NIT, Jaipur. She has been working on embedded system for long
+
+and brings onboard her expertise from robotics and 2 years of experience in TATA power. 
+
+She has awesome problem solving skills; No wonder her algorithm won their team the best algorithm 
+
+award in annual robotics competition in DRDO followed by best line seeking algorithm in Lockheed 
+
+Martin Virginia. 
+
+A deadly combination of "silence & mischief", she leaves no stone unturned ensuring every measure 
+
+that can be taken to ensure the electrical safety of the product.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/nirmalaranawat"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+<div class="modal fade" id="rit1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Ritika Dhyawala</h4>
+          <p style="margin-top: 8px;font-size: 18px;"><p>Software and User Experience.</p>A passionate software designer with 'minimum lines of code' mantra for life. When not piercing her 
+
+stare into laptop screen "the chatter box" handles the marketing part of product. Being from a business 
+
+family, Ritika brings her insight of building and running a business. 
+
+An ex-SAP Employee, she is a pro in fixing problems on the spot and has won us two highly competitive 
+
+Hackathons.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/nirmalaranawat"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+<div class="modal fade" id="viv1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Vivek Raj</h4>
+          <p style="margin-top: 8px;font-size: 18px;"><p>Vivek is fundamentally a scientist with business instincts. He graduated from IIT Kharagpur with dual degrees. 
+
+Having been around the world, working with some renowned research organisations, MNCs and a start-up, he 
+
+has a massive network of technocrats, scientists, investors and businessmen. Always having been a gadget 
+
+freak, is naturally well-versed with all the cutting edge research, latest developments and the constantly 
+
+evolving market trends.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/nirmalaranawat"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+
+<div class="modal fade" id="chi1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Chintan</h4>
+          <p style="margin-top: 8px;font-size: 18px;"><p>Vivek is fundamentally a scientist with business instincts. He graduated from IIT Kharagpur with dual degrees. 
+
+Having been around the world, working with some renowned research organisations, MNCs and a start-up, he 
+
+has a massive network of technocrats, scientists, investors and businessmen. Always having been a gadget 
+
+freak, is naturally well-versed with all the cutting edge research, latest developments and the constantly 
+
+evolving market trends.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/nirmalaranawat"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+<div class="modal fade" id="jai1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Jai</h4>
+          <p style="margin-top: 8px;font-size: 18px;"><p>Vivek is fundamentally a scientist with business instincts. He graduated from IIT Kharagpur with dual degrees. 
+
+Having been around the world, working with some renowned research organisations, MNCs and a start-up, he 
+
+has a massive network of technocrats, scientists, investors and businessmen. Always having been a gadget 
+
+freak, is naturally well-versed with all the cutting edge research, latest developments and the constantly 
+
+evolving market trends.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/nirmalaranawat"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<div class="modal fade" id="roh1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Rohan</h4>
+          <p style="margin-top: 8px;font-size: 18px;"><p>Vivek is fundamentally a scientist with business instincts. He graduated from IIT Kharagpur with dual degrees. 
+
+Having been around the world, working with some renowned research organisations, MNCs and a start-up, he 
+
+has a massive network of technocrats, scientists, investors and businessmen. Always having been a gadget 
+
+freak, is naturally well-versed with all the cutting edge research, latest developments and the constantly 
+
+evolving market trends.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/nirmalaranawat"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<div class="modal fade" id="kus1" role="dialog" aria-labelledby="myLargeModalLabel">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content center1" style="text-align:center;padding: 40px;">
+        <div class="modal-body" style="font-size: 1.2em;">
+<button type="button" class="close" data-dismiss="modal">&times;</button>
+ <h4 class="modal-title" style="font-size: 1.6em;">Vivek Raj</h4>
+          <p style="margin-top: 8px;font-size: 18px;"><p>Vivek is fundamentally a scientist with business instincts. He graduated from IIT Kharagpur with dual degrees. 
+
+Having been around the world, working with some renowned research organisations, MNCs and a start-up, he 
+
+has a massive network of technocrats, scientists, investors and businessmen. Always having been a gadget 
+
+freak, is naturally well-versed with all the cutting edge research, latest developments and the constantly 
+
+evolving market trends.</p>
+<div style="float:left"><p style="margin-top: 35px;">    <a href="https://www.facebook.com/nirmalaranawat"><img
+                          class="fb1"  style="width: 43px;" src="newimage/icons/fb.png">
+                    </a>
+                    <a href="https://twitter.com/Basil_Systems"><img class="twitter1" style="width: 43px;"src="newimage/icons/twitter.png">
+                    </a>
+                   
+                    <a href=""><img class="linked1"  style="width: 43px;" src="newimage/icons/linkedin.png">
+                    </a>
+</p>
+</div><p style="height:50px;padding-top: 45px;margin-left: 267px;">nishant@basilsystems.com</p>
+        </div>
+       
+      </div>
+      
+    </div>
+  </div>
+
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#clover")
+                    .mouseover(function ()
+                    {
+                        var src ="newimage/CBcolor.png";
+                        $(this).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "newimage/CBbw.png";
+                        $(this).attr("src", src);
+                    });
             });
         });
-    </script>
+</script>
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#paper")
+                    .mouseover(function ()
+                    {
+                        var src ="newimage/PScolor.png";
+                        $(this).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "newimage/PSbw.png";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
+
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#nis")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/nishant_hover1.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/nishant.jpg";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
+
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#nir")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/nirmalahover.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/nirmala103.jpg";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#rit")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/ritikahover1.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/Ritika5.jpg";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
+
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#viv")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/vivek_hover1.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/vivek.jpg";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
+
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#roh")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/rohan_hover1.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/Rohan1.jpg";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
+
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#chi")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/Chintan_hover3.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/chintan.jpg";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
 
 
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#kus")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/Dilip_hover1.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/Dilip.png";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
+
+
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $("#jai")
+                    .mouseover(function ()
+                    {
+                        var src ="img/team/Jai_hover1.jpg";
+                        $(this).fadeIn(1000).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "img/team/jai.jpg";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
 <script>
             $('document').ready(function ()
         {
@@ -523,5 +959,51 @@ p {
             });
         });
 </script>
+<script>
+            $('document').ready(function ()
+        {
+            $(function ()
+            {
+                $(".linked1")
+                    .mouseover(function ()
+                    {
+                        var src ="newimage/icons/linkedinhover.png";
+                        $(this).attr("src", src);
+                    })
+                    .mouseout(function ()
+                    {
+                        var src = "newimage/icons/linkedin.png";
+                        $(this).attr("src", src);
+                    });
+            });
+        });
+</script>
 
 
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/jquery.fittext.js"></script>
+<script src="js/wow.min.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/creative.js"></script>
+<script type="text/javascript" src="js/slidx.js"></script>
+
+</body>
+
+</html>
+
+<?php
+    if(isset($_POST['subscribe_email'])) { //only do file operations when appropriate
+        $a = $_POST['subscribe_email'];
+        $myFile = "emails.txt";
+        $fh = fopen($myFile, 'a') or die("can't open file");
+        fwrite($fh, $a."\n");
+        fclose($fh);
+    }
+?>
+Contact GitHub API Training Shop Blog About
+© 2017 GitHub, Inc. Terms Privacy Security Status Help
